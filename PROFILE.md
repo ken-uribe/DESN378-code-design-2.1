@@ -9,10 +9,10 @@ Update it once, keep it consistent everywhere.
 
 | Field | Value |
 |-------|-------|
-| **Name** | <!-- First Last --> |
-| **Preferred Name** | <!-- What should I call you? --> |
-| **Pronouns** | <!-- Optional --> |
-| **EWU Email** | <!-- @ewu.edu --> |
+| **Name** | Kenia Uribe |
+| **Preferred Name** | Kenia |
+| **Pronouns** | NA |
+| **EWU Email** | kuribe@ewu.edu |
 
 ---
 
@@ -22,9 +22,9 @@ Update it once, keep it consistent everywhere.
 
 | Platform | Profile URL | Status |
 |----------|-------------|--------|
-| **GitHub** | `https://github.com/________` | ⏳ |
-| **Figma** | `@________` | ⏳ |
-| **CodePen** | `https://codepen.io/________` | ⏳ |
+| **GitHub** | https://github.com/ken-uribe | ✅ |
+| **Figma** | @kenia_ | ✅ |
+| **CodePen** | https://codepen.io/kuribe | ✅ |
 | **Portfolio** | *Coming Week 10* | 🔲 |
 
 ---
@@ -32,7 +32,7 @@ Update it once, keep it consistent everywhere.
 ## Profile Photo
 
 - [ ] Same photo uploaded to GitHub, Figma, and CodePen
-- [ ] Professional or at least *intentional*
+- [ ✅ ] Professional or at least *intentional*
 - [ ] Face visible (helps me learn names!)
 
 ---
@@ -41,9 +41,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Applied/Renewed | ⏳ |
-| Copilot Access | ⏳ |
-| Expires | <!-- Date --> |
+| Applied/Renewed | ✅ |
+| Copilot Access | ✅ |
+| Expires | April 17, 2027 |
 
 👉 [Check status or renew](https://education.github.com/pack)
 
@@ -53,9 +53,9 @@ Update it once, keep it consistent everywhere.
 
 | Item | Status |
 |------|--------|
-| Education Plan Active | ⏳ |
-| Joined Course Team | ⏳ |
-| Expires | <!-- Date --> |
+| Education Plan Active | ✅ |
+| Joined Course Team | ✅ |
+| Expires | Active |
 
 👉 [Check status](https://www.figma.com/settings) → Plan
 
