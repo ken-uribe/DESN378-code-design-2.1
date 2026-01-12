@@ -12,4 +12,5 @@ myImage.addEventListener("click", () => {
   } else {
     myImage.setAttribute("src", "images/fox1.png");
   }
-});
+});let myButton = document.querySelector("button");
+let myHeading = document.querySelector("h1");
