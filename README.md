@@ -23,9 +23,53 @@ This is my workspace for **DESN 378 Code + Design 2** also known as **Web Design
 ## Learning Log
 
 Update this section each week with observations, breakthroughs, and questions.
+​
+## Week 0
+​
+### What I Learned
+Learned about Variables, Data structures, Loops, Conditionals, and Functions.
+Varibales are containers that hold values and other data types.
+Objects can either change or be const( can't be changed later on).
+Learned about functions and how they allow you to create reusable & modular code.
+Functions afect variables inside them. If you define a variable within a function, 
+the variable cannot be used outside the function. JavaScript has to do with  manipulation,
+interaction with the user, & the webserver. 
+​
+​
+### What Was Hard
+The hard part was remembering what objects were given so that they could be strung together,
+like in the greeting bot assignment.
+​
+​
+### How I Used AI
+I used AI to help explain some parts since I named some of my files differently and had to
+fix them in the code. It also helped break down and find where the errors were since it can 
+be hard to find them when you are tiered.
+​
+​
+### What's Still Unclear
+This is from the reading we originally had before it changed, but I'm still not sure about the 
+2 ways to access a value inside an object. And the use of brackets and dot notation.
 
-### Week 1: Systems That Respond
-*Coming soon...*
+​
+​
+### Work Completed (Week 0)
+​
+**Engage**
+- [ ] Portfolio Audit
+​
+**Learn**
+- [ ] Console Explorer
+- [ ] Codedex Console Fundamentals
+​
+**Reflect**
+- [ ] Visual Notes: Variables and Strings
+​
+**Build**
+- [ ] The Setup
+- [ ] The Behavioral Layer
+​
+---
 
 ### Week 2: Remembering Choices
 *Coming soon...*
