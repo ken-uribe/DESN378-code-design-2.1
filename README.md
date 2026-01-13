@@ -59,15 +59,15 @@ This is from the reading we originally had before it changed, but I'm still not 
 - [ ] Portfolio Audit
 ​
 **Learn**
-- [ ] Console Explorer
-- [ ] Codedex Console Fundamentals
+- [X] Console Explorer
+- [X] Codedex Console Fundamentals
 ​
 **Reflect**
-- [ ] Visual Notes: Variables and Strings
+- [X] Visual Notes: Variables and Strings
 ​
 **Build**
-- [ ] The Setup
-- [ ] The Behavioral Layer
+- [X] The Setup
+- [X] The Behavioral Layer
 ​
 ---
 
