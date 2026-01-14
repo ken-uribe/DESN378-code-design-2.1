@@ -69,6 +69,16 @@ This is from the reading we originally had before it changed, but I'm still not 
 - [X] The Setup
 - [X] The Behavioral Layer
 ​
+# Portfolio — Week 1
+​
+## Project Structure
+- `css/` — Stylesheets
+- `scripts/` — JavaScript
+- `assets/` — Images, fonts, icons, etc.
+​
+## Changes This Week
+- Migrated to standardized structure
+
 ---
 
 ### Week 2: Remembering Choices
