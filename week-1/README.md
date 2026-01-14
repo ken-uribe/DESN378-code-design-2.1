@@ -15,7 +15,8 @@ Add your Week 1 work here.
 - `querySelector` and `addEventListener`
 
 # Portfolio — Week 1
-​
+
+​🔗 **[Portfolio](https://ken-uribe.github.io/DESN378-code-design-2.1/week-1/portfolio/)**
 ## Project Structure
 - `css/` — Stylesheets
 - `scripts/` — JavaScript
