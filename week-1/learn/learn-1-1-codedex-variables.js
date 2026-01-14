@@ -70,6 +70,7 @@ console.log(total);
 // Format the output nicely
 // --------------------------------------------
 
-​
-​
-​
+let totalSongs = 6;
+let songLength = 3;
+let playlistLength = totalSongs * songLength;
+console.log(playlistLength);
