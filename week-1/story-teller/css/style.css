@@ -1,0 +1,72 @@
+html {
+  background-image: url(https://images.nightcafe.studio/jobs/ts5IxeUMNSyqeg5Mj8Hd/ts5IxeUMNSyqeg5Mj8Hd--1--8ceoq.jpg);
+  padding: 200px;
+}
+
+.roboto-flex-<uniquifier > {
+  font-family: "Roboto Flex", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
+    "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;
+}
+
+.hidden {
+  display: none;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid white;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #ff9500;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #00539f;
+  color: white;
+
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row; /* or column */
+  justify-content: center; /* horizontal */
+  align-items: center; /* vertical */
+  gap: 12px;
+}
+
+button:hover {
+  background-color: #e15f0e;
+}
