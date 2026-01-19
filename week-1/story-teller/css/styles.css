@@ -1,12 +1,8 @@
 html {
-  background-image: url(https://images.nightcafe.studio/jobs/ts5IxeUMNSyqeg5Mj8Hd/ts5IxeUMNSyqeg5Mj8Hd--1--8ceoq.jpg);
+  background-image: url("week-1/story-teller/assets/images/Main_Background.jpg");
   padding: 200px;
-}
-
-.roboto-flex-<uniquifier > {
   font-family: "Roboto Flex", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
   font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 0, "XOPQ" 96, "XTRA" 468,
     "YOPQ" 79, "YTAS" 750, "YTDE" -203, "YTFI" 738, "YTLC" 514, "YTUC" 712;

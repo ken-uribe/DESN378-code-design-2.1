@@ -3,7 +3,7 @@ const sections = document.querySelectorAll(
   '.Intro, .Part1, .Part2, .Part3, .Part4, .Part5'
 );
 
-// 2. Grab all Next and Back buttons
+// 2. Grabs all Next and Back buttons
 const nextButtons = document.querySelectorAll('.Next');
 const backButtons = document.querySelectorAll('.Back');
 
