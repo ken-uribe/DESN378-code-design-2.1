@@ -82,7 +82,50 @@ This is from the reading we originally had before it changed, but I'm still not 
 ---
 
 ### Week 2: Remembering Choices
-*Coming soon...*
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+Design Systems are a set of standards that help keep the look/feel
+of products & experiences consistant. Components of a design system
+three main parts: 1. Design System= the entier ecosystem 2. Componet
+& Pattern Libraries 3. Foundational Elements/Style Guide
+Reasons to use a design system being, working with a team, working
+faster, and creating more engagment/loyalty with it.
+​
+### What Was Hard
+The hardest part is learning about Design Tokens and the naming systems
+for them. I can definetly see how they will speed work up once they are
+set and able to be plugged in.​
+​
+### How I Used AI
+I used it to create a story for the Story Teller HW. I need to use it 
+more to not just explain, but to also check where I went wrong or might
+be doing wrong.​
+​
+### What's Still Unclear
+It's a me thing, and it's naming and getting the right links/paths so that
+the code works properly.
+
+### Work Completed (Week 1)
+
+**Engage**
+- [X] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Variables
+- [X] HTML Academy 
+
+**Practice**
+- [ ] The Story Teller
+
+**Build**
+- [ ] Portfolio Migration
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [X] Visual Notes: Week 1---
 
 ---
 
