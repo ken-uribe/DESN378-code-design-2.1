@@ -129,6 +129,32 @@ the code works properly.
 
 ---
 
+# Learning Log
+​
+## Week 2
+​
+### What I Learned
+Learned more about naming conventions & design tokens.
+How to best implement them and when they should be used or when
+would be a good time to use them so that they can later on be 
+scaled up. ​
+​
+### What Was Hard
+Hard part was understanding some of the assignments since some are
+copy and past from past assignmets/AI so I get confused on what to do
+or submit, but I think I'm getting the main points done for the big picture.​
+​
+### How I Used AI
+I used it again to help explain some parts and troubleshooting. I also have
+been having to use it to speed things up with coding. I do have to go back and
+read it since I want to make sure that what I do code I understand.​
+​
+### What's Still Unclear
+Lots of things, but I check in with others to see if I'm in the ballpark.
+Also still wondering how we will grab from figma and turn it to code. Probably
+thinking it will deal with the dev mode portion to creat the CSS.
+
+
 ## Quick Links
 
 - [My Profile](PROFILE.md)
