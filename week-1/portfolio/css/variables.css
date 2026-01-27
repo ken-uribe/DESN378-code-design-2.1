@@ -1,9 +1,9 @@
 /* Design Tokens — [Kenia]'s Portfolio */
 
 /* =====================================================
-   BRAND COLOR (Light)– SEMANTIC TOKENS
+   BRAND COLOR (Light)– TOKENS
 ===================================================== */
-.body.light {
+[data-theme="light"] {
   --color-primary: var(--vblue-600);
   --color-accent-light: var(--vblue-50);
   --color-bg-light: var(--vblue-500);
@@ -12,9 +12,9 @@
 }
 
 /* =====================================================
-   BRAND COLOR (Dark) – SEMANTIC TOKENS
+   BRAND COLOR (Dark) – TOKENS
 ===================================================== */
-.body.dark {
+[data-theme="dark"] {
   --color-primary: var(--vblue-200);
   --color-accent-light: var(--vblue-50);
   --color-bg-light: var(--vblue-500);
