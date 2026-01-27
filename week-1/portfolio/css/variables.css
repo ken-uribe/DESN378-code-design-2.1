@@ -1,0 +1,100 @@
+/* Design Tokens — [Kenia]'s Portfolio */
+
+/* =====================================================
+   BRAND COLOR (Light)– SEMANTIC TOKENS
+===================================================== */
+.body.light {
+  --color-primary: var(--vblue-600);
+  --color-accent-light: var(--vblue-50);
+  --color-bg-light: var(--vblue-500);
+  --color-text-dark-alt: var(--vblue-900);
+  --color-neutral-alt: var(--vblue-200);
+}
+
+/* =====================================================
+   BRAND COLOR (Dark) – SEMANTIC TOKENS
+===================================================== */
+.body.dark {
+  --color-primary: var(--vblue-200);
+  --color-accent-light: var(--vblue-50);
+  --color-bg-light: var(--vblue-500);
+  --color-text-dark-alt: var(--vblue-50);
+  --color-neutral-alt: var(--vblue-200);
+}
+
+/* =====================================================
+   SPACING SCALE
+===================================================== */
+:root {
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-m: 24px;
+  --space-l: 32px;
+  --space-xl: 40px;
+  --space-xxl: 56px;
+  --space-xxxl: 72px;
+}
+
+/* =====================================================
+   BRAND COLOR – PRIMITIVES
+===================================================== */
+:root {
+  --vblue-50: #f8fffe;
+  --vblue-100: #edf6f8;
+  --vblue-200: #d5e2ed;
+  --vblue-300: #afc7dc;
+  --vblue-400: #5fb3e8;
+  --vblue-500: #5ca6fb;
+  --vblue-600: #0c8ce9;
+  --vblue-700: #0a63b5;
+  --vblue-800: #043a6e;
+  --vblue-900: #011835;
+  --vblue-950: #010c1c;
+}
+
+/* =====================================================
+   TYPOGRAPHY TOKENS
+===================================================== */
+:root {
+  /* Font Families */
+  --font-display: "Josefin Sans", sans-serif;
+  --font-body: "Gothic A1", sans-serif;
+  --font-header: "Josefin Sans", sans-serif;
+  --font-subheader: "Inter", sans-serif;
+  --font-caption: "Space Grotesk", sans-serif;
+
+  /* Font Sizes */
+  --text-xs: 12px;
+  --text-s: 14px;
+  --text-body: 16px;
+  --text-m: 18px;
+  --text-l: 22px;
+  --text-xl: 28px;
+  --text-xxl: 36px;
+  --text-xxxl: 48px;
+  --text-title: 96px;
+
+  /* Font Weights */
+  --weight-300: 300;
+  --weight-400: 400;
+  --weight-500: 500;
+  --weight-600: 600;
+  --weight-700: 700;
+}
+
+/* =====================================================
+   RESPONSIVE TOKENS
+===================================================== */
+:root {
+  --frame-mobile: 390px;
+  --nav-size: var(--space-s);
+  --card-size: var(--space-s);
+}
+
+/* =====================================================
+   FEATURE FLAGS (CSS-SAFE)
+===================================================== */
+:root {
+  --has-burger-menu: 1;
+  --has-nav-links: 0;
+}
