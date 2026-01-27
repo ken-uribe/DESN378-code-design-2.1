@@ -131,7 +131,7 @@ the code works properly.
 
 # Learning Log
 ​
-## Week 2
+## Week 3
 ​
 ### What I Learned
 Learned more about naming conventions & design tokens.
@@ -154,6 +154,24 @@ Lots of things, but I check in with others to see if I'm in the ballpark.
 Also still wondering how we will grab from figma and turn it to code. Probably
 thinking it will deal with the dev mode portion to creat the CSS.
 
+### Work Completed (Week 1)
+
+**Engage**
+- [ ] VS Code Theme Setup
+
+**Learn**
+- [X] Codedex.io Conditionals
+- [X] figma variables
+
+**Practice**
+- [ ] The Switch
+
+**Build**
+- [ ] The Foundation
+- [X] Portfolio in Figma + Style Tile
+
+**Reflect**
+- [ ] Visual Notes: Week 2---
 
 ## Quick Links
 
