@@ -1,7 +1,7 @@
 # DESN 378: Code + Design 2
 
 🔗 **[Learning Log](https://ken-uribe.github.io/DESN378-code-design-2.1/)**
-🔗 **[DESN368 Portfolio](https://ken-uribe.github.io/landing-page-ku-368/)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
+🔗 **[DESN368 Portfolio](https://ken-uribe.github.io/DESN378-code-design-2.1/week-1/portfolio/)** _FYI, this is just the URL to your repo; if it's still on Netlify, then use that. _
 
 ---
 
