@@ -101,6 +101,29 @@ a {
   font-size: 0.9rem;
 }
 
+/* =====================================================
+   THEME TOGGLE BUTTON
+   ===================================================== */
+
+.theme-toggle {
+  width: 36px;
+  height: 36px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--CP1-Grey-Neutral);
+  background-color: transparent;
+  color: var(--CP1-Dark-Text);
+
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  background-color: var(--CP1-Grey-Neutral);
+}
 
 /* =====================================================
    BANNER / HEADER
