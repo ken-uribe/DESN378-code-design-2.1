@@ -1,8 +1,9 @@
 html {
-  background-image: url(../assets/images/Main_Background.jpg);
+  background-image: url(assets/images/Main_Background.jpg);
   padding: 20px;
   font-family: "Roboto Flex", sans-serif;
   font-style: normal;
+  
 }
 
 .hidden {
@@ -40,6 +41,7 @@ h2 {
 img {
   display: block;
   margin: 0 auto;
+  width: 600px;
 }
 
 button {
