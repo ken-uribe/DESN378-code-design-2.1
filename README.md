@@ -172,6 +172,60 @@ thinking it will deal with the dev mode portion to creat the CSS.
 
 **Reflect**
 - [ ] Visual Notes: Week 2---
+​
+## Week 4
+# Learning Log
+​
+## Week 
+​
+### What I Learned
+Learned about SVGs and how simple ones can be used to create icons
+and buttons. SVG code goes in the HTML body and can be animated in
+CSS. SVGs are created by points and are scalable instead of static.
+Depending on the shape different atributes will change the element 
+(<circle><rect><line><polygon><ellipse>).​
+​
+### What Was Hard
+I'm actually still haveing a hard time with testing in the console,
+but I think it's just lack of practice, and my bad decition in trying
+to create a new portfolio page, and not making up my mind on how I want
+it. I keep changing my mind. I'm going to just pick something and stick
+with it even if I don't like it.​
+​
+### How I Used AI
+I used it a lot for explaining, and heoping me catch up on some things.
+I am making sure I have it explain each step or explain parts that come
+up that I haven't seen or been taught in class, sometimes the machine likes
+to add things because it's faster, but we haven' t learned about it yet or
+at all.​
+​
+### What's Still Unclear
+I sometimes still get a little confused on where you want certain code to go.
+But I'm definetly starting to understand better with the none AI slides. 
+
+​
+### Work Completed (Week 4)
+
+**Design Tokens**
+- [X] variables.css exists
+- [X] Color tokens defined
+- [X] Typography tokens defined
+- [X] Spacing tokens defined
+- [ ] Tokens used in CSS (no hardcoded values)
+
+**Theme System**
+- [ ] Uses data-theme on <html>
+- [ ] Toggle feedback is immediate
+
+**Persistence & Preference**
+- [ ] Theme saved to localStorage
+- [ ] Theme persists on refresh
+- [ ] System preference used on first visit
+
+**Deployment**
+- [ ] Deployed to GitHub Pages
+- [ ] Repository is public​
+
 
 ## Quick Links
 
