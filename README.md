@@ -30,19 +30,38 @@ Update this section each week with observations, breakthroughs, and questions.
 ## Week 5
 ​
 ### What I Learned
-<!-- SVG's, dropdown, svg paths -->
+SVG primatives are pretty easy to understand now. It's just sometimes
+a little difficult to remenber to remember to switch to the right attributs
+that go with the type of SVG. Paths can get a little messy looking in code,
+especially if they get really long. I also wondered if there was a way to
+close the paths (which is z at the end), so it's easier to think of it as
+a shape/line. the different types of animations that they can have were
+interesting, and I got a little excited when I got the star from the SVG
+tutoral practice to spin on the click.
 ​
 ​
 ### What Was Hard
-<!-- What broke, confused you, or took time to understand -->
-​
+Arcs took a little and I think I still struggle to get how to make it work
+correctly (math is hard if you don't practice it). Also how long Paths in 
+general can get, and thinking of how to best write it neatly so that it is
+understandable (for me rn). Also, still struggling with remembering the right
+JS comands to get things to work (like the drop down). I struggled really hard
+with the drop down, and I tried to move things around to play with it but 
+found I messed it up badly and it took me a while to get it to work like
+the computer had it, without coping it exactly again.​
 ​
 ### How I Used AI
-<!-- Copilot, ChatGPT, etc. What you asked and why -->
-​
+I ask ChatGPT a lot rn, I'm still thinking of a way to prompt better, but
+so that it will still teach me what it's doing and how it's doing code when
+I get stuck. I feel like I'm going to have to ask it a lot of questions for
+this next project, but I feel like it's mainly going to be to remind me of
+how to write/use the right attributes. I think I get the concepts for JS.​
 ​
 ### What's Still Unclear
-<!-- Questions that remain -->
+ViewBox in SVGs. I get it's the window and can act like a mask for SVGs,
+but it's still unclear of how I would know what size I need for each?
+I'm going to assume that it's practice and messing with it though.
+
 ​
 ## Week 0
 ​
