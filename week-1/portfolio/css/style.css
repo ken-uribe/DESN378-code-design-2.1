@@ -75,7 +75,7 @@ a {
 .nav-left .logo-icon {
   width: 40px;
   height: 40px;
-  background-color: var(--CP1-Dark-Text); /* placeholder */
+  background-color: var(--CP1-Dark-Text);
 }
 
 .nav-center {
@@ -168,7 +168,7 @@ a {
   background-color: var(--CP1-Grey-Neutral); /* placeholder */
 }
 
-
+/*
 /* =====================================================
    PROCESS SECTION
    ===================================================== */
@@ -201,7 +201,7 @@ a {
 .process-card p {
   font-size: 0.95rem;
 }
-
+*/
 
 /* =====================================================
    PORTFOLIO SECTION
