@@ -145,6 +145,7 @@ img {
   cursor: pointer;
   display: flex;
   align-items: center;
+  gap: var(--space-sm);
   transition: var(--transition-fast);
 }
 
@@ -152,10 +153,16 @@ img {
   background: var(--color-accent);
 }
 
-.dropdown-trigger svg {
-  width: 20px;
-  height: 20px;
-  fill: var(--color-text);
+.dropdown-trigger > svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.dropdown-trigger svg,
+.dropdown-trigger svg * {
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 .dropdown-menu {
@@ -200,8 +207,26 @@ img {
 }
 
 .dropdown-menu svg {
-  width: 18px;
-  height: 18px;
+  width: 24px;
+  height: 24px;
+}
+
+.selected-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.selected-icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.selected-icon svg,
+.selected-icon svg * {
+  fill: currentColor;
+  stroke: currentColor;
 }
 
 .theme-dropdown.open .dropdown-menu {

@@ -18,9 +18,12 @@ function updateSelectedIcon(mode) {
   if (!selectedIconContainer) return;
   const activeButton = document.querySelector(`[data-mode="${mode}"]`);
   if (!activeButton) return;
+  
   const svg = activeButton.querySelector('svg');
+  
+  selectedIconContainer.innerHTML = '';
+  
   if (svg) {
-    selectedIconContainer.innerHTML = '';
     selectedIconContainer.appendChild(svg.cloneNode(true));
   } else {
     // fallback: show text label
