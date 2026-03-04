@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "scrollytelling-js-in-cult-terms-kenia-1",
+			"path": "../../home/codespace/scrollytelling-js-in-cult-terms-kenia-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5502
+	}
+}
