@@ -1,24 +1,29 @@
-const buttons = document.querySelectorAll('[data-mode]');
+const dropdown = document.querySelector('.theme-dropdown');
+const trigger = document.querySelector('.dropdown-trigger');
+const menuButtons = document.querySelectorAll('.dropdown-menu [data-mode]');
 const root = document.documentElement;
 const storageKey = 'theme';
-
 const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+const selectedIconContainer = document.querySelector('.selected-icon');
 
-function setActiveButton(mode) {
-  buttons.forEach(button => {
-    button.classList.toggle('active', button.dataset.mode === mode);
-  });
+function updateSelectedIcon(mode) {
+  const activeButton = document.querySelector(`[data-mode="${mode}"]`);
+  if (!activeButton) return;
+
+  const icon = activeButton.querySelector('svg').cloneNode(true);
+  selectedIconContainer.innerHTML = '';
+  selectedIconContainer.appendChild(icon);
 }
 
 function applyTheme(theme) {
+  let resolvedTheme = theme;
+
   if (theme === 'system') {
-    const resolvedTheme = systemPrefersDark.matches ? 'dark' : 'light';
-    root.dataset.theme = resolvedTheme;
-  } else {
-    root.dataset.theme = theme;
+    resolvedTheme = systemPrefersDark.matches ? 'dark' : 'light';
   }
 
-  setActiveButton(theme);
+  root.dataset.theme = resolvedTheme;
+  updateSelectedIcon(theme);
 }
 
 const savedTheme = localStorage.getItem(storageKey);
@@ -29,12 +34,20 @@ if (savedTheme) {
   applyTheme('system');
 }
 
-buttons.forEach(button => {
+trigger.addEventListener('click', () => {
+  const expanded = trigger.getAttribute('aria-expanded') === 'true';
+  trigger.setAttribute('aria-expanded', !expanded);
+  dropdown.classList.toggle('open');
+});
+
+menuButtons.forEach(button => {
   button.addEventListener('click', () => {
     const selectedMode = button.dataset.mode;
-
     localStorage.setItem(storageKey, selectedMode);
     applyTheme(selectedMode);
+
+    dropdown.classList.remove('open');
+    trigger.setAttribute('aria-expanded', 'false');
   });
 });
 
