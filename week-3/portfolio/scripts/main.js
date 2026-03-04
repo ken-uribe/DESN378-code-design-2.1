@@ -1,31 +1,26 @@
-/*
-Create a three-mode theme toggle system.
-Requirements:
-- Uses data-theme on <html>
-- Modes: light, dark, system
-- Save choice to localStorage
-- On first visit detect prefers-color-scheme
-- System mode updates live if OS changes
-- No theme flashing on load
-- No classList toggling
-*/
-
 const buttons = document.querySelectorAll('[data-mode]');
 const root = document.documentElement;
 const storageKey = 'theme';
 
-// Detect system preference
 const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+function setActiveButton(mode) {
+  buttons.forEach(button => {
+    button.classList.toggle('active', button.dataset.mode === mode);
+  });
+}
 
 function applyTheme(theme) {
   if (theme === 'system') {
-    root.dataset.theme = systemPrefersDark.matches ? 'dark' : 'light';
+    const resolvedTheme = systemPrefersDark.matches ? 'dark' : 'light';
+    root.dataset.theme = resolvedTheme;
   } else {
     root.dataset.theme = theme;
   }
+
+  setActiveButton(theme);
 }
 
-// Load saved theme
 const savedTheme = localStorage.getItem(storageKey);
 
 if (savedTheme) {
@@ -34,7 +29,6 @@ if (savedTheme) {
   applyTheme('system');
 }
 
-// Button clicks
 buttons.forEach(button => {
   button.addEventListener('click', () => {
     const selectedMode = button.dataset.mode;
@@ -44,7 +38,6 @@ buttons.forEach(button => {
   });
 });
 
-// Live system updates (stretch goal ✔)
 systemPrefersDark.addEventListener('change', () => {
   const current = localStorage.getItem(storageKey);
   if (current === 'system') {
