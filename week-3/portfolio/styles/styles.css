@@ -161,8 +161,9 @@ img {
 
 .dropdown-trigger svg,
 .dropdown-trigger svg * {
-  fill: currentColor;
-  stroke: currentColor;
+  fill: currentColor !important;
+  stroke: currentColor !important;
+  color: inherit !important;
 }
 
 .dropdown-menu {
@@ -202,8 +203,9 @@ img {
 .dropdown-menu svg,
 .dropdown-menu svg * {
   /* make any SVG shapes use the current text color for visibility */
-  fill: currentColor;
-  stroke: currentColor;
+  fill: currentColor !important;
+  stroke: currentColor !important;
+  color: inherit !important;
 }
 
 .dropdown-menu svg {
@@ -225,8 +227,9 @@ img {
 
 .selected-icon svg,
 .selected-icon svg * {
-  fill: currentColor;
-  stroke: currentColor;
+  fill: currentColor !important;
+  stroke: currentColor !important;
+  color: inherit !important;
 }
 
 .theme-dropdown.open .dropdown-menu {
