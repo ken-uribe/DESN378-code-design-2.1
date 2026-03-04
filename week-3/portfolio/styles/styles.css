@@ -171,6 +171,8 @@ img {
   display: none;
   min-width: 140px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  /* ensure dropdown text/icons follow the current theme */
+  color: var(--color-text);
 }
 
 .dropdown-menu button {
@@ -183,16 +185,23 @@ img {
   gap: var(--space-sm);
   cursor: pointer;
   text-align: left;
+  color: inherit;
 }
 
 .dropdown-menu button:hover {
   background: var(--color-surface-secondary);
 }
 
+.dropdown-menu svg,
+.dropdown-menu svg * {
+  /* make any SVG shapes use the current text color for visibility */
+  fill: currentColor;
+  stroke: currentColor;
+}
+
 .dropdown-menu svg {
   width: 18px;
   height: 18px;
-  fill: var(--color-text);
 }
 
 .theme-dropdown.open .dropdown-menu {
