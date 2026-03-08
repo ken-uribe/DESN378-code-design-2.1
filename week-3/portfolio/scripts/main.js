@@ -90,6 +90,14 @@ if (trigger && dropdown) {
     dropdown.classList.remove('open');
     trigger.setAttribute('aria-expanded', 'false');
   });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && dropdown.classList.contains('open')) {
+      dropdown.classList.remove('open');
+      trigger.setAttribute('aria-expanded', 'false');
+      trigger.focus();
+    }
+  });
 }
 
 // Otherwise, if a simple inline theme toggle exists, use that
