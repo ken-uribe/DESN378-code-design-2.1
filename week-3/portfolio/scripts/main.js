@@ -78,7 +78,18 @@ if (trigger && dropdown) {
     trigger.setAttribute('aria-expanded', expanded ? 'false' : 'true');
     dropdown.classList.toggle('open');
   });
-  wireButtons(menuButtons);
+  dropdown.addEventListener('click', (e) => {
+    const button = e.target.closest('[data-mode]');
+    if (!button) return;
+
+    const selectedMode = button.dataset.mode;
+
+    localStorage.setItem(storageKey, selectedMode);
+    applyTheme(selectedMode);
+
+    dropdown.classList.remove('open');
+    trigger.setAttribute('aria-expanded', 'false');
+  });
 }
 
 // Otherwise, if a simple inline theme toggle exists, use that

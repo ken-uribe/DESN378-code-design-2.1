@@ -204,6 +204,10 @@ img {
   background: var(--color-surface-secondary);
 }
 
+.dropdown-menu button.active svg {
+  color: var(--color-on-accent);
+}
+
 .dropdown-menu svg,
 .dropdown-menu svg * {
   /* make any SVG shapes use the current text color for visibility */
