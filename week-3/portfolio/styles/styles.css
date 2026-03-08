@@ -153,6 +153,10 @@ img {
   background: var(--color-accent);
 }
 
+[data-theme="dark"] .dropdown-trigger {
+  color: #ffffff;
+}
+
 .dropdown-trigger > svg {
   width: 24px;
   height: 24px;
@@ -245,6 +249,50 @@ img {
   height: 300px;
   background: linear-gradient(135deg, var(--color-accent), var(--color-surface-secondary));
   margin-top: 0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: var(--space-lg);
+  padding: 0 var(--space-lg);
+  white-space: nowrap;
+  animation: scroll-left 12s linear infinite;
+}
+
+.banner-text {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  color: var(--color-on-accent);
+  flex-shrink: 0;
+}
+
+.banner-shape {
+  flex-shrink: 0;
+}
+
+.banner-triangle polygon {
+  fill: var(--color-accent-secondary);
+}
+
+.banner-circle circle {
+  fill: var(--color-accent);
+}
+
+.banner-square rect {
+  fill: var(--color-border);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100vw);
+  }
 }
 
 /* =========================
