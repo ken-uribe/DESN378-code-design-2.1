@@ -1,0 +1,98 @@
+:root {
+
+/* ========================
+   PRIMITIVE COLOR TOKENS
+======================== */
+
+/* Neutrals */
+--neutral-0: #ffffff;
+--neutral-100: #efe4cb;
+--neutral-200: #d3c2a0;
+--neutral-300: #9c8a81;
+--neutral-400: #77635f;
+--neutral-500: #3a1f26;
+--neutral-600: #0e0e18;
+
+/* Teals */
+--teal-100: #bfdfd4;
+--teal-200: #98ccb5;
+--teal-300: #0ab395;
+--teal-400: #009f83;
+--teal-500: #00816a;
+
+/* Reds */
+--red-100: #e89498;
+--red-200: #ed414d;
+--red-300: #d2071f;
+--red-400: #a6180f;
+--red-500: #570500;
+
+/* Purples */
+--purple-100: #e7c0df;
+--purple-200: #bc59a7;
+--purple-300: #843974;
+--purple-400: #761449;
+--purple-500: #3c0020;
+
+/* Blues */
+--blue-100: #8293d9;
+--blue-200: #5567b3;
+--blue-300: #37478a;
+--blue-400: #112165;
+--blue-500: #000b39;
+
+/* ========================
+   SEMANTIC COLOR TOKENS
+======================== */
+
+--color-background-primary: var(--neutral-100);
+--color-background-secondary: var(--neutral-600);
+
+--color-text-primary: var(--neutral-600);
+--color-text-secondary: var(--neutral-400);
+
+--color-accent-primary: var(--teal-300);
+
+--color-danger: var(--red-300);
+--color-highlight: var(--purple-300);
+--color-info: var(--blue-300);
+
+/* ========================
+   TYPOGRAPHY TOKENS
+======================== */
+
+--font-display: "Chelsea Market", sans-serif;
+--font-body: "Josefin Sans", sans-serif;
+
+--font-size-title: 96px;
+--font-size-heading: 48px;
+--font-size-body: 18px;
+--font-size-caption: 12px;
+
+--font-weight-regular: 400;
+--font-weight-medium: 500;
+--font-weight-bold: 700;
+
+/* ========================
+   SPACING TOKENS
+======================== */
+
+--space-xs: 8px;
+--space-sm: 16px;
+--space-md: 24px;
+--space-lg: 32px;
+--space-xl: 40px;
+--space-2xl: 56px;
+--space-3xl: 72px;
+
+[data-theme="dark"] {
+
+--color-background-primary: var(--neutral-600);
+--color-background-secondary: var(--neutral-500);
+
+--color-text-primary: var(--neutral-0);
+--color-text-secondary: var(--neutral-200);
+
+}
+
+}

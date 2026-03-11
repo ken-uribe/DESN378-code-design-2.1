@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Concepts Explained in Cult of the Lamb Terms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/variables.css">
+<link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <!-- EVENTS SECTION -->
+<section class="section section--events">
+  <div class="section__content">
+
+    <h2>Events are when something happens.</h2>
+
+    <p>In Cult:</p>
+    <ul>
+      <li>You press A</li>
+      <li>You talk to someone</li>
+      <li>You cook</li>
+      <li>You fight</li>
+      <li>You preach</li>
+    </ul>
+
+    <p class="chapter-highlight">
+      Nothing happens without a trigger.
+    </p>
+
+    <p class="code">
+      In JS: button.addEventListener("click", preach);
+    </p>
+
+    <p class="translation">
+      Translation: “When the player does this → run this ritual.”
+    </p>
+
+  </div>
+</section>
+
+
+<!-- VARIABLES SECTION -->
+<section class="section section--variables">
+  <div class="section__content">
+
+    <h2>Variables are the numbers and values you're constantly checking.</h2>
+
+    <p>In-game:</p>
+
+    <ul>
+      <li>Faith</li>
+      <li>Hunger</li>
+      <li>Followers</li>
+      <li>Gold</li>
+      <li>Health</li>
+    </ul>
+
+    <p class="code">
+      In JS:<br>
+      let faith = 80;<br>
+      let followers = 12;<br>
+      let hunger = 40;<br>
+      let gold = 250;
+    </p>
+
+    <p class="chapter-highlight">
+      "What's my cult's current status?"
+    </p>
+
+  </div>
+</section>
+
+
+<!-- CONDITIONALS SECTION -->
+<section class="section section--conditionals">
+  <div class="section__content">
+
+    <h2>Conditionals are the “if this, then that” rules.</h2>
+
+    <ul>
+      <li>If faith &lt; 30 → rebellion</li>
+      <li>If hunger &gt; 80 → sickness</li>
+      <li>If loyalty high → bonus</li>
+    </ul>
+
+    <p class="code">
+      In JS: if (faith &lt; 30) { startRebellion(); }
+    </p>
+
+  </div>
+</section>
+
+
+<!-- LOCAL STORAGE -->
+<section class="section section--storage">
+  <div class="section__content">
+
+    <h2>localStorage = your save slot.</h2>
+
+    <ul>
+      <li>You quit</li>
+      <li>Come back tomorrow</li>
+      <li>Everything is still there</li>
+    </ul>
+
+    <p class="code">
+      localStorage.setItem("faith", faith);
+    </p>
+
+    <p>
+      Without this → every reload = new game.
+    </p>
+
+  </div>
+</section>
+
+
+<!-- TOGGLE -->
+<section class="section section--toggle">
+  <div class="section__content">
+
+    <h2>Toggle = turning a state on/off.</h2>
+
+    <ul>
+      <li>Night mode</li>
+      <li>Curse active</li>
+      <li>Ritual buff</li>
+      <li>Demon form</li>
+    </ul>
+
+    <p class="code">
+      body.classList.toggle("dark-mode");
+    </p>
+
+    <p class="chapter-highlight">
+      Mental Model: “Am I about to trigger a bad event?”
+    </p>
+
+  </div>
+</section>
+
+            <!-- Content Container -->
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title--primary">JS Concepts</span>
+                    <span class="hero-title--secondary">Explained</span>
+                    <span class="hero-title--primary">in Cult of the Lamb</span>
+                    <span class="hero-title--secondary">Terms</span>
+                </h1>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

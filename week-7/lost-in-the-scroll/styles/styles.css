@@ -1,0 +1,219 @@
+@import url("./variables.css");
+
+/* ================================
+   Reset & Base Styles
+   ================================ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: var(--font-display);
+    background-color: var(--color-background-primary);
+    color: var(--color-text-primary);
+}
+
+/* ================================
+   Hero Section
+   ================================ */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--color-danger);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+/* SVG Background Container */
+.hero-svg-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.6;
+}
+
+.hero-svg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    color: var(--color-background-secondary);
+}
+
+/* Content Container */
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: var(--space-lg);
+    max-width: 100%;
+}
+
+/* Title Styles */
+.hero-title {
+    font-family: var(--font-display);
+    line-height: 1.2;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xs);
+}
+
+/* Primary title spans (JS Concepts, Cult of the Lamb) */
+.hero-title--primary {
+    font-size: var(--font-size-title);
+    color: var(--neutral-100);
+    font-weight: var(--font-weight-regular);
+}
+
+/* Secondary title spans (Explained, Terms) */
+.hero-title--secondary {
+    font-size: var(--font-size-heading);
+    color: var(--color-danger);
+    font-weight: var(--font-weight-regular);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* ================================
+   Story Sections
+   ================================ */
+
+.section {
+  min-height: 100svh;
+  padding: var(--space-3xl) var(--space-md);
+  display: flex;
+  align-items: center;
+}
+
+.section__content {
+  width: min(72rem, 100%);
+  margin-inline: auto;
+  max-width: 700px;
+}
+
+.section h2 {
+  font-family: var(--font-display);
+  font-size: var(--font-size-heading);
+  margin-bottom: var(--space-md);
+}
+
+.section p {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  margin-bottom: var(--space-sm);
+}
+
+.section ul {
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-md);
+  font-family: var(--font-body);
+}
+
+/* Cult red sections */
+
+.section--events,
+.section--variables,
+.section--conditionals,
+.section--storage,
+.section--toggle {
+  background: var(--color-danger);
+  color: var(--neutral-100);
+}
+
+/* Code blocks */
+
+.code {
+  font-family: monospace;
+  margin-top: var(--space-md);
+}
+
+/* Highlight text */
+
+.chapter-highlight {
+  margin-top: var(--space-lg);
+  font-size: 22px;
+}
+
+/* ================================
+   Responsive Design
+   ================================ */
+
+/* Tablets and smaller devices */
+@media (max-width: 1024px) {
+    .hero-title--primary {
+        font-size: 72px;
+    }
+
+    .hero-title--secondary {
+        font-size: 36px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .hero {
+        min-height: 100vh;
+    }
+
+    .hero-content {
+        padding: var(--space-md);
+    }
+
+    .hero-title--primary {
+        font-size: 48px;
+    }
+
+    .hero-title--secondary {
+        font-size: 28px;
+    }
+}
+
+/* Small mobile devices */
+@media (max-width: 480px) {
+    .hero-title--primary {
+        font-size: 36px;
+    }
+
+    .hero-title--secondary {
+        font-size: 20px;
+    }
+
+    .hero-content {
+        padding: var(--space-sm);
+    }
+}
+
+/* Large screens */
+@media (min-width: 1920px) {
+    .hero-title--primary {
+        font-size: 120px;
+    }
+
+    .hero-title--secondary {
+        font-size: 60px;
+    }
+}
+
+/* ================================
+   Accessibility
+   ================================ */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none !important;
+        transition: none !important;
+    }
+}
