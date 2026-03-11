@@ -92,6 +92,7 @@ li {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    padding: 0;
 }
 
 /* SVG Background Container */
@@ -111,6 +112,18 @@ li {
     object-fit: cover;
     display: block;
     color: var(--color-background-secondary);
+}
+
+/* Inline SVG Background */
+.hero-svg {
+    position: absolute;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    fill: #000;
+    pointer-events: none;
+    display: block;
 }
 
 /* Content Container */
