@@ -22,6 +22,65 @@ body {
 }
 
 /* ================================
+   Page Layout
+   ================================ */
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Every story section */
+
+.section {
+  width: 100%;
+  min-height: 100vh;
+  padding: var(--space-3xl) var(--space-md);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__content {
+  width: min(720px, 90%);
+  margin-inline: auto;
+}
+
+.section__content > * + * {
+  margin-top: var(--space-md);
+}
+
+.section--events,
+.section--variables,
+.section--conditionals,
+.section--storage,
+.section--toggle {
+  background: var(--color-danger);
+  color: var(--neutral-100);
+}
+
+h2 {
+  font-family: var(--font-display);
+  font-size: var(--font-size-heading);
+}
+
+p,
+li {
+  font-family: var(--font-body);
+  font-size: var(--font-size-body);
+  line-height: 1.5;
+}
+
+.code {
+  font-family: monospace;
+  background: rgba(0,0,0,0.15);
+  padding: var(--space-sm);
+  border-radius: 6px;
+}
+
+/* ================================
    Hero Section
    ================================ */
 .hero {
@@ -91,19 +150,6 @@ body {
 /* ================================
    Story Sections
    ================================ */
-
-.section {
-  min-height: 100svh;
-  padding: var(--space-3xl) var(--space-md);
-  display: flex;
-  align-items: center;
-}
-
-.section__content {
-  width: min(72rem, 100%);
-  margin-inline: auto;
-  max-width: 700px;
-}
 
 .section h2 {
   font-family: var(--font-display);
@@ -216,4 +262,16 @@ body {
         animation: none !important;
         transition: none !important;
     }
+}
+
+@media (max-width: 768px) {
+
+  .section {
+    padding: var(--space-xl) var(--space-md);
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
 }
