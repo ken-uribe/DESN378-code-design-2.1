@@ -190,6 +190,16 @@ li {
   font-family: var(--font-body);
 }
 
+.ritual-mater {
+  width: 260px;
+  display: block;
+  margin: var(--space-xl) auto;
+
+  filter:
+    drop-shadow(0 0 25px rgba(0,0,0,0.7))
+    drop-shadow(0 0 10px rgba(0,0,0,0.6));
+}
+
 .variables-icons {
   display: flex;
   gap: var(--space-sm);
