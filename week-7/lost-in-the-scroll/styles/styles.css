@@ -182,6 +182,34 @@ li {
   font-family: var(--font-body);
 }
 
+.variables-icons {
+  display: flex;
+  gap: var(--space-sm);
+  align-items: center;
+  margin-bottom: var(--space-lg);
+}
+
+.variables-icon {
+  width: 44px;
+  height: 44px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.25));
+}
+
+.variables-icon--faith {
+  background-image: var(--icon-faith);
+}
+
+.variables-icon--gold {
+  background-image: var(--icon-gold);
+}
+
+.variables-icon--hunger {
+  background-image: var(--icon-hunger);
+}
+
 /* Cult red sections */
 
 .section--events,

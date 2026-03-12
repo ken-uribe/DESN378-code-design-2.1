@@ -85,6 +85,14 @@
 --space-2xl: 56px;
 --space-3xl: 72px;
 
+/* ========================
+   ASSET TOKENS
+======================== */
+
+--icon-faith: url("../assets/icons/faith-icon.svg");
+--icon-gold: url("../assets/icons/gold-icon.svg");
+--icon-hunger: url("../assets/icons/hunger-icn.svg");
+
 [data-theme="dark"] {
 
 --color-background-primary: var(--neutral-600);
