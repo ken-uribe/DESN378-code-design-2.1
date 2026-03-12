@@ -229,6 +229,20 @@ li {
   pointer-events: none;
 }
 
+.ritual-button {
+  display: block;
+  margin: var(--space-md) auto 0;
+  padding: 0;
+  border: none;
+  width: min(220px, 50vw);
+  height: calc(min(220px, 50vw) * 0.5);
+  background: url("../assets/svgs/ritual-button.svg") center / 100% 100% no-repeat;
+  color: transparent;
+  font-size: 0;
+  cursor: pointer;
+}
+
+
 .variables-icons {
   display: flex;
   gap: var(--space-sm);
