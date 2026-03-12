@@ -257,31 +257,39 @@ li {
 
 
 .variables-icons {
-  display: flex;
-  gap: var(--space-sm);
-  align-items: center;
-  margin-bottom: var(--space-lg);
+  position: relative;
+  width: min(320px, 70vw);
+  aspect-ratio: 1 / 1;
+  margin: var(--space-lg) auto;
 }
 
 .variables-icon {
-  width: 44px;
-  height: 44px;
+  position: absolute;
+  width: 64px;
+  height: 64px;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
   filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.25));
+  transform: translate(-50%, -50%);
 }
 
 .variables-icon--faith {
   background-image: var(--icon-faith);
+  left: 78%;
+  top: 52%;
 }
 
 .variables-icon--gold {
   background-image: var(--icon-gold);
+  left: 36%;
+  top: 78%;
 }
 
 .variables-icon--hunger {
   background-image: var(--icon-hunger);
+  left: 26%;
+  top: 24%;
 }
 
 /* Cult red sections */
