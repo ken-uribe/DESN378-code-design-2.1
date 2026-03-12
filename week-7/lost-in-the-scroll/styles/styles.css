@@ -80,6 +80,14 @@ li {
   border-radius: 6px;
 }
 
+.ritual-ring-svg {
+  display: block;
+  width: min(100%, 720px);
+  height: auto;
+  margin: var(--space-md) auto;
+  fill: var(--neutral-100);
+}
+
 /* ================================
    Hero Section
    ================================ */
