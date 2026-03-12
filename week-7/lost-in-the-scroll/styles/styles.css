@@ -202,8 +202,10 @@ li {
 
 .ritual-stack {
   position: relative;
-  width: min(320px, 72vw);
-  margin: var(--space-xl) auto;
+  width: 60vw;
+  margin: var(--space-xl) 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #ritual-black-matter {
@@ -219,8 +221,8 @@ li {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   transform: translate(-50%, -50%);
   object-fit: contain;
   z-index: 2;
