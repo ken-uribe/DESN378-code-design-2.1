@@ -200,6 +200,33 @@ li {
     drop-shadow(0 0 10px rgba(0,0,0,0.6));
 }
 
+.ritual-stack {
+  position: relative;
+  width: min(320px, 72vw);
+  margin: var(--space-xl) auto;
+}
+
+#ritual-black-matter {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter:
+    drop-shadow(0 0 25px rgba(0,0,0,0.7))
+    drop-shadow(0 0 10px rgba(0,0,0,0.6));
+}
+
+.ritual-ring-art {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 70%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+  object-fit: contain;
+  z-index: 2;
+  pointer-events: none;
+}
+
 .variables-icons {
   display: flex;
   gap: var(--space-sm);
