@@ -353,6 +353,14 @@ li {
   fill: currentColor;
 }
 
+.save-icon {
+  display: block;
+  width: min(260px, 60vw);
+  height: auto;
+  margin: var(--space-md) auto 0;
+  color: var(--neutral-700);
+}
+
 .dark-matter-2 {
   display: block;
   width: 100vw;
