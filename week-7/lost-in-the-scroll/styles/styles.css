@@ -102,7 +102,7 @@ li {
   font-family: monospace;
   background: var(--overlay-ink-15);
   padding: var(--space-sm);
-  border-radius: 6px;
+  border-radius: var(--radius-sm);
 }
 
 .ritual-ring-svg {
@@ -217,7 +217,7 @@ li {
 }
 
 .ritual-mater {
-  width: 260px;
+  width: var(--size-ritual-meter);
   display: block;
   margin: var(--space-xl) auto;
 
@@ -267,11 +267,11 @@ li {
   background-color: var(--neutral-600);
   color: var(--color-accent-primary);
   font-family: var(--font-display);
-  font-size: 24px;
+  font-size: var(--font-size-button);
   letter-spacing: 0.04em;
   text-transform: uppercase;
   white-space: nowrap;
-  border-radius: 18px;
+  border-radius: var(--radius-lg);
   cursor: pointer;
   box-shadow:
     0 8px 0 var(--overlay-ink-25),
@@ -290,8 +290,8 @@ li {
 
 .variables-icon {
   position: absolute;
-  width: 64px;
-  height: 64px;
+  width: var(--size-icon-lg);
+  height: var(--size-icon-lg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -322,14 +322,14 @@ li {
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  width: min(240px, 40vw);
+  width: min(var(--size-faith-meter), 40vw);
 }
 
 .faith-meter-svg {
   display: block;
-  height: clamp(240px, 55vh, 420px);
+  height: clamp(var(--size-faith-meter-min-height), 55vh, var(--size-faith-meter-max-height));
   width: auto;
-  max-width: min(240px, 70vw);
+  max-width: min(var(--size-faith-meter), 70vw);
 }
 
 .rebellion-svg {
@@ -337,11 +337,11 @@ li {
   width: min(220px, 45vw);
   height: auto;
   margin: 0 auto;
-  fill: var(--neutral-600);
+  fill: var(--color-text-primary);
 }
 
 .rebellion-svg path {
-  fill: var(--neutral-600);
+  fill: var(--color-text-primary);
 }
 
 /* Cult red sections */
@@ -366,7 +366,7 @@ li {
 
 .chapter-highlight {
   margin-top: var(--space-lg);
-  font-size: 22px;
+  font-size: var(--font-size-highlight);
 }
 
 /* ================================

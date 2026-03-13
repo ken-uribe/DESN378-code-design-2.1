@@ -97,6 +97,20 @@
 --overlay-ink-70: rgba(0, 0, 0, 0.7);
 
 /* ========================
+   UI TOKENS
+======================== */
+
+--radius-sm: 6px;
+--radius-lg: 18px;
+--font-size-button: 24px;
+--font-size-highlight: 22px;
+--size-icon-lg: 64px;
+--size-ritual-meter: 260px;
+--size-faith-meter: 240px;
+--size-faith-meter-min-height: 240px;
+--size-faith-meter-max-height: 420px;
+
+/* ========================
    ASSET TOKENS
 ======================== */
 
