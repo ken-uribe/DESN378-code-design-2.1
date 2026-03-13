@@ -63,13 +63,16 @@ main {
 
 .section--conditionals {
   position: relative;
-  gap: 20px;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
 }
 
 .section--conditionals .section__content {
   position: relative;
   z-index: 2;
   width: min(520px, 70%);
+  margin: 0;
 }
 
 h2 {
@@ -86,7 +89,7 @@ li {
 
 .code {
   font-family: monospace;
-  background: rgba(0,0,0,0.15);
+  background: var(--overlay-ink-15);
   padding: var(--space-sm);
   border-radius: 6px;
 }
@@ -141,7 +144,7 @@ li {
     width: 108%;
     height: 120%;
     z-index: 1;
-    fill: #000;
+    fill: var(--neutral-600);
     pointer-events: none;
     display: block;
 }
@@ -177,7 +180,7 @@ li {
     font-size: var(--font-size-heading);
     color: var(--color-danger);
     font-weight: var(--font-weight-regular);
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-shadow: 2px 2px 4px var(--overlay-ink-20);
 }
 
 /* ================================
@@ -208,8 +211,8 @@ li {
   margin: var(--space-xl) auto;
 
   filter:
-    drop-shadow(0 0 25px rgba(0,0,0,0.7))
-    drop-shadow(0 0 10px rgba(0,0,0,0.6));
+    drop-shadow(0 0 25px var(--overlay-ink-70))
+    drop-shadow(0 0 10px var(--overlay-ink-60));
 }
 
 .ritual-stack {
@@ -225,8 +228,8 @@ li {
   width: 100%;
   height: auto;
   filter:
-    drop-shadow(0 0 25px rgba(0,0,0,0.7))
-    drop-shadow(0 0 10px rgba(0,0,0,0.6));
+    drop-shadow(0 0 25px var(--overlay-ink-70))
+    drop-shadow(0 0 10px var(--overlay-ink-60));
 }
 
 .ritual-ring-art {
@@ -260,10 +263,10 @@ li {
   border-radius: 18px;
   cursor: pointer;
   box-shadow:
-    0 8px 0 rgba(0, 0, 0, 0.25),
-    0 12px 24px rgba(0, 0, 0, 0.25),
-    0 24px 48px rgba(0, 0, 0, 0.2),
-    0 0 28px rgba(0, 0, 0, 0.3);
+    0 8px 0 var(--overlay-ink-25),
+    0 12px 24px var(--overlay-ink-25),
+    0 24px 48px var(--overlay-ink-20),
+    0 0 28px var(--overlay-ink-30);
 }
 
 
@@ -281,7 +284,7 @@ li {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  filter: drop-shadow(0 2px 0 rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 2px 0 var(--overlay-ink-25));
   transform: translate(-50%, -50%);
 }
 
@@ -308,7 +311,7 @@ li {
   justify-content: center;
   align-items: center;
   margin-top: 0;
-  width: 100%;
+  width: min(240px, 40vw);
 }
 
 .faith-meter-svg {
