@@ -369,6 +369,14 @@ li {
   color: var(--neutral-700);
 }
 
+.night-mode-toggle {
+  display: block;
+  width: min(var(--size-toggle), 55vw);
+  height: auto;
+  margin: var(--space-md) auto 0;
+  color: var(--neutral-700);
+}
+
 .dark-matter-2 {
   display: block;
   width: 100vw;
