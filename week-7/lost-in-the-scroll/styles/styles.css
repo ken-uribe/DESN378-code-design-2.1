@@ -361,6 +361,14 @@ li {
   color: var(--neutral-700);
 }
 
+.cult-crown {
+  display: block;
+  width: min(33vw, 360px);
+  height: auto;
+  margin: var(--space-md) auto 0;
+  color: var(--neutral-700);
+}
+
 .dark-matter-2 {
   display: block;
   width: 100vw;
