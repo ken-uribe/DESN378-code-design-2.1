@@ -330,6 +330,15 @@ li {
   height: clamp(var(--size-faith-meter-min-height), 55vh, var(--size-faith-meter-max-height));
   width: auto;
   max-width: min(var(--size-faith-meter), 70vw);
+  color: var(--neutral-600);
+}
+
+.faith-meter-svg path {
+  fill: currentColor;
+}
+
+.faith-meter-svg rect {
+  stroke: currentColor;
 }
 
 .rebellion-svg {
@@ -337,11 +346,11 @@ li {
   width: min(220px, 45vw);
   height: auto;
   margin: 0 auto;
-  fill: var(--color-text-primary);
+  color: var(--color-text-primary);
 }
 
 .rebellion-svg path {
-  fill: var(--color-text-primary);
+  fill: currentColor;
 }
 
 .dark-matter-2 {
@@ -349,7 +358,8 @@ li {
   width: 100vw;
   height: auto;
   margin: var(--space-md) calc(50% - 50vw) 0;
-  fill: var(--neutral-700);
+  color: var(--neutral-700);
+  fill: currentColor;
   filter: drop-shadow(0 8px 18px var(--overlay-ink-25));
 }
 
