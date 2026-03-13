@@ -61,6 +61,15 @@ main {
   color: var(--neutral-100);
 }
 
+.section--conditionals {
+  position: relative;
+}
+
+.section--conditionals .section__content {
+  position: relative;
+  z-index: 2;
+}
+
 h2 {
   font-family: var(--font-display);
   font-size: var(--font-size-heading);
@@ -290,6 +299,21 @@ li {
   background-image: var(--icon-hunger);
   left: 26%;
   top: 24%;
+}
+
+.faith-meter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  width: 100%;
+}
+
+.faith-meter-svg {
+  display: block;
+  height: clamp(240px, 55vh, 420px);
+  width: auto;
+  max-width: min(240px, 70vw);
 }
 
 /* Cult red sections */
