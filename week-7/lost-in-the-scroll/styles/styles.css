@@ -63,7 +63,8 @@ main {
 
 .section--conditionals {
   position: relative;
-  gap: 2px;
+  flex-direction: column;
+  gap: var(--space-lg);
   justify-content: center;
   align-items: center;
 }
@@ -73,6 +74,16 @@ main {
   z-index: 2;
   width: min(520px, 70%);
   margin: 0;
+}
+
+.conditionals-stack {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-md);
+  width: min(900px, 90%);
+  margin: 0 auto;
+  flex-wrap: wrap;
 }
 
 h2 {
@@ -319,6 +330,18 @@ li {
   height: clamp(240px, 55vh, 420px);
   width: auto;
   max-width: min(240px, 70vw);
+}
+
+.rebellion-svg {
+  display: block;
+  width: min(220px, 45vw);
+  height: auto;
+  margin: 0 auto;
+  fill: var(--neutral-600);
+}
+
+.rebellion-svg path {
+  fill: var(--neutral-600);
 }
 
 /* Cult red sections */
